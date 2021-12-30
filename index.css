@@ -98,7 +98,7 @@ body{
     padding: 0 4px;
 }
 
-footer{
+.section2{
     width: auto;
     height: 130px;
     padding: 0px 16px 0px 16px;
@@ -151,6 +151,17 @@ footer{
     color: #00376B;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -162,7 +173,7 @@ body{
     text-align: center;
 }
 
-.todo{
+.section1{
     width: 100vw;
     height: 50vh;
     display: flex;
@@ -177,7 +188,6 @@ body{
     border-color: red;
     border-width: 1px;
     height: 1000px;
-    padding: 100px;
 }
 
 .mainfoto{
