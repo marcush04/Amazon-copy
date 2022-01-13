@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -17,17 +17,6 @@ body{
     justify-content: start;
     flex-direction: column;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .mainfoto{
@@ -130,6 +119,10 @@ body{
     color: #0066C0;
     font-size: 12px;
     text-decoration: none;
+}
+.textopequeño2:hover{
+    color: orange;
+    text-decoration: underline;
 }
 
 .ayuda{
