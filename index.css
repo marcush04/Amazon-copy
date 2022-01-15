@@ -23,8 +23,6 @@ body{
 
 
 
-
-
 .mainfoto{
     width: 122.41px;
     height: 40px;
@@ -209,8 +207,17 @@ body{
 
 
 
+.section2{
+    width: auto;
+    height: 50vh;
+    padding: 0px 16px 0px 16px;
+    margin: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: rgba(241, 241, 241, 0.35);
+}
 
-/*Footer (NO TOCAR)*/
 .ul{
     list-style-type: none;
     text-align: center;
@@ -237,16 +244,7 @@ body{
     padding: 0 4px;
 }
 
-.section2{
-    width: auto;
-    height: 50vh;
-    padding: 0px 16px 0px 16px;
-    margin: 10px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    background: rgba(241, 241, 241, 0.35);
-}
+
 
 
 
