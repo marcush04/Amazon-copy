@@ -10,12 +10,13 @@ body{
 }
 
 .section1{
-    width: 100vw;
-    height: 50vh;
+    width: auto;
+    height: 51vh;
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
+    background-color: white;
 }
 
 
@@ -28,11 +29,12 @@ body{
     width: 122.41px;
     height: 40px;
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .bloque{
     width: 348px;
-    height: 325px;
+    height: 316px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -50,8 +52,9 @@ body{
     width: 296px;
     height: 37.59px;
     font-size: 28px;
-    padding-bottom: 4px;
-    font-weight: 400;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-weight: 500;
     line-height: 1.2;
     display: flex;
     align-self: start;
@@ -81,6 +84,9 @@ body{
     padding-top: 3px;
     padding-bottom: 3px;
     margin-bottom: 13px;
+}
+.emailtext:focus{
+    box-shadow: 0px 0px 3px 1px rgb(247, 160, 0);
 }
 
 .continuar{
@@ -137,6 +143,10 @@ body{
     font-size: 13px;
     text-decoration: none;
 }
+.ayuda:hover{
+    color: rgb(207, 83, 0);
+    text-decoration: underline;
+}
 
 .crearacc{
     display: flex;
@@ -146,17 +156,31 @@ body{
 .nuevo{
     color: #767676;
     font-size: 12px;
-    padding: 4px 8px 10px 7px;
+    padding: 6px 8px 10px 7px;
+}
+.linea{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+}
+.linea:before,.linea:after{
+    content: "";
+    flex-grow: 1;
+    background: rgba(173, 173, 173, 0.473);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
 }
 
 .botonacc{
     width: 340px;
     height: 30px;
     padding: 0 10px 0 11px;
+    margin-bottom: 17px;
     background: linear-gradient(.50turn, white, 10%, #e7e9ec); 
     border-radius: 3px;
     border-color: #adb1b8 #a2a6ac #8d9096;
-    border-width: 1px;
+    border-width: 0.5px;
     cursor: pointer;
     display: inline-block;
     padding: 0;
@@ -167,10 +191,19 @@ body{
     background: #e7e9ec;
 }
 
-
-
-
-
+.separador{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+}
+.separador:before, .separador:after{
+    content: "";
+    flex-grow: 1;
+    background: rgba(173, 173, 173, 0.473);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
 
 
 
@@ -185,7 +218,7 @@ body{
 
 .lista {
     display: inline;
-
+    margin-right: 8px;
 }
 
 .a {
@@ -206,10 +239,18 @@ body{
 
 .section2{
     width: auto;
-    height: 130px;
+    height: 50vh;
     padding: 0px 16px 0px 16px;
     margin: 10px;
     display: block;
     justify-content: center;
     align-items: center;
+    background: rgba(241, 241, 241, 0.35);
 }
+
+
+
+
+
+
+
