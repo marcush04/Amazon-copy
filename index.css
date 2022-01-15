@@ -9,6 +9,10 @@ body{
     text-align: center;
 }
 
+
+
+
+
 .section1{
     width: auto;
     height: 51vh;
@@ -18,10 +22,6 @@ body{
     flex-direction: column;
     background-color: white;
 }
-
-
-
-
 
 .mainfoto{
     width: 122.41px;
