@@ -192,15 +192,13 @@ body{
     display: flex;
     align-items: center;
     color: rgba(0, 0, 0, 0.35);
-}
-.separador:before, .separador:after{
-    content: "";
     flex-grow: 1;
     background: rgba(173, 173, 173, 0.473);
     height: 1px;
     font-size: 0px;
     line-height: 0px;
 }
+
 
 
 
@@ -226,7 +224,6 @@ body{
     display: inline;
     margin-right: 8px;
 }
-
 
 .condiciones2 {
     font-size: 11px;
